@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CAT FD1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+    body {
+      background-color: rgb(243, 242, 242);
+    }
+    .container {
+      display: flex;
+      width: 100%;
+      height: 100%;
+    }
+    /* Styling for Left Side of the Code  */
+
+    .left-side {
+      margin: 40px;
+    }
+  
+    /* for first Side  */
+    .first-side {
+      border: 1px solid transparent;
+      background-color: white;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .first-side h1 {
+      color: rgb(2, 179, 232);
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    .first-side p {
+      font-size: 20px;
+    }
+
+    .btn {
+      display: flex;
+      color: rgb(2, 179, 232);
+    }
+
+    .btn p {
+      margin-right: 20px;
+      padding: 10px;
+      background-color: rgb(240, 240, 77);
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 20px;
+    }
+
+    /* for second side  */
+    .second-side {
+      border: 1px solid transparent;
+      background-color: white;
+      padding: 10px;
+      height: 400px;
+    }
+
+    .second-side p {
+      font-size: 18px;
+    }
+
+    .list {
+      font-weight: 500;
+    }
+
+    .list li {
+      font-size: 18px;
+    }
+
+    .profile {
+      float: right;
+    }
+
+    .profile p {
+      color: rgb(119, 118, 118);
+    }
+
+    .profile-flex {
+      display: flex;
+      background-color: rgb(200, 224, 231);
+      border-radius: 6px;
+      padding-right: 120px;
+    }
+    .profile-flex img {
+      width: 50px;
+      height: 50px;
+      margin: 8px;
+      padding: 5px;
+    }
+    .profile-flex h1 {
+      font-size: 18px;
+      color: rgb(0, 85, 255);
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+    .profile-flex p {
+      color: rgb(119, 118, 118);
+    }
+
+    /* styling for Right side of the Code  */
+
+    .right-side {
+      width: 500px;
+      height: 250px;
+      border: 1px solid transparent;
+      background-color: antiquewhite;
+      padding: 10px;
+      margin-top: 40px;
+      margin-right: 40px;
+    }
+
+    .right-side h1 {
+      color: red;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .content {
+      padding: 10px;
+    }
+
+    .content p {
+      color: rgb(119, 118, 118);
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .content p span {
+      margin-left: 35%;
+      font-size: 15px;
+      font-weight: 500;
+
+    }
+
+    hr {
+      background-color: rgb(204, 203, 203);
+      height: 1px;
+    }
+
+    .border-blue {
+      border: 1px solid transparent;
+      background-color: rgb(200, 224, 231);
+      padding: 8px;
+      border-radius: 6px;
+    }
+
+    /* Styling for Responsive Design  */
+
+    @media only screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .left-side,
+      .right-side {
+        width: auto;
+        margin: 10px;
+      }
+
+      .second-side {
+        height: 805px;
+      }
+
+      .right-side {
+        margin-top: 10px;
+      }
+
+      .content p span {
+        margin-left: 0;
+      }
+
+      .profile-flex {
+        padding-right: 20px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div id="code-section" class="container">
+    <!-- Code for Left Side of Page -->
+    <div class="left-side">
+
+      <!-- for First Side  -->
+      <div class="first-side">
+        <h1>Why is it important for politicians to advocate beyond self-intrest</h1>
+        <p>Discussing the criticism of self-serving politics in India and the need for politicians to prioritize public
+          intrests.</p>
+        <div class="btn">
+          <p>politics</p>
+          <p>Government</p>
+          <p>India</p>
+          <p>Public-intrest</p>
+        </div>
+      </div>
+
+      <!-- for Second Side -->
+      <div class="second-side">
+        <ul class="list">
+          <li>Enhances credibility: Politicians advocating for causes beyond self-interest gain trust and credibility
+            among the public.</li>
+          <li>Strengthens democracy: Prioritizing public interests over personal gain promotes a healthier democratic
+            system.</li>
+          <li> Long-term benefits: Focusing on broader issues leads to sustainable policies that benefit society as a
+            whole.</li>
+          <li> Builds social cohesion: Advocating for causes that benefit the greater good fosters unity and social
+            harmon</li>
+          <li> Addresses systemic issues: By prioritizing public interests, politicians can work towards addressing and
+            solving deep-rooted societal problems.</li>
+        </ul>
+        <p>By shifting the focus from self-serving politics to public interests, politicians can contribute to positive
+          change and improve governance in India.</p>
+
+        <!-- Code for Profile   -->
+        <div class="profile">
+          <p>Answered 5 days ago</p>
+          <div class="profile-flex">
+            <img src="girl.png" alt="photo">
+            <div>
+              <h1>Mohit</h1>
+              <p>Aspirant</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Code for Right Side of the Page -->
+    <div class="right-side">
+      <h1>Question Stat
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="skyblue" class="bi bi-bar-chart-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z" />
+        </svg>
+      </h1>
+      <div class="content">
+        <p>ID <span style="margin-left: 45%;">12053</span>
+        <p>
+        <p>Votes <span style="margin-left: 40%;">0</span></p>
+        <p>Added <span style="margin-left: 38%;">26 Mar 24</span></p>
+        <p>Updated <span>26 Mar 24</span></p>
+        <p>Subject <span class="border-blue">Governance</span></p>
+      </div>
+      <hr>
+    </div>
+  </div>
+</body>
+
+</html>
